@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# Streamlit secrets (contains API keys)
+.streamlit/secrets.toml
+
+# VS Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
