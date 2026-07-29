@@ -34,7 +34,7 @@ vectors = cv.fit_transform(movies["tags"]).toarray()
 similarity = cosine_similarity(vectors)
 
 with st.sidebar:
-    st.image("assets/banner.jpeg", width=120)
+    st.image("Assets/banner.jpeg", width=120)
 
     #st.title("🎬 Movie Recommender")
 
@@ -59,7 +59,7 @@ with st.sidebar:
 
 #banner
 with st.sidebar:
-    st.image("assets/banner.jpeg", width=120)
+    st.image("Assets/banner.jpeg", width=120)
     st.title("🎬 Movie Recommender")
 
 # --------------------------------------------------
